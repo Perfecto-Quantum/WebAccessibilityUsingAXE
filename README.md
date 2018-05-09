@@ -30,3 +30,4 @@ This is following the convention defined in the [AXE spec](https://axe-core.org/
 ## Customizations
 In application.properties one can set the flag **env.failScriptOnAccessibilityErrors** to true such that once a violation is found, their script will assert. (see AXEStepsDefs.java, line 119).
 
+Kudis to Chris Emerson for his help setting this up!
