@@ -59,7 +59,7 @@
                 <configuration>
                     <argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>
                     <systemPropertyVariables>
-                        <application.properties.file>resources/application.properties.AXE</application.properties.file>
+                        <application.properties.file>resources/application.properties</application.properties.file>
                     </systemPropertyVariables>
 
                     <suiteXmlFiles>
