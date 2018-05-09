@@ -1,0 +1,19 @@
+#menu
+contact = xpath=(//*[@class='hover-effect scroll'])[2]
+menu = xpath=//button[@class='navbar-toggle collapsed']
+main=xpath=//*[@class="navbar-brand"]
+
+
+#contact
+name = xpath=//input[@name='your name']
+email = xpath=//input[@name='your email']
+msg = xpath=//textarea[@name='your message']
+send = xpath=//input[@type='submit']
+
+
+
+##service validation
+servicesPage =xpath=//*[text()='culpa qui officia des']
+
+## Cigna
+FindDoctorButton = xpath=//*[id()='find-doc']

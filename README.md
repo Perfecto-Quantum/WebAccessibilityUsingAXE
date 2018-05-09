@@ -6,13 +6,13 @@ This project demonstrates how AXE (provided by Deque see [here](https://axe-core
 ## Quick getting started
 1. Head over to resources/application.properties and enter your cloud name (remote.server), your username and either password or security token (you can get the latter [this way](https://developers.perfectomobile.com/display/PD/Security+Token))
 2. ensure your project is configured as Maven (right click on POM and select the maven option). ensure all imports are complete
-3. right click src/main/java/resource/config/testng_desktop.xml and click "run"
+3. right click src/main/java/resource/config/testng_web_AXE.xml and click "run"
 
 In the report you will find a new step called **"Then axe scans the web page"** , this is what causes the scan
 
 ## Reading the Perfecto report
 Under the step "Then axe scans the web page", you will find a number of "Execute Script" and then the first comment.
-This comment will say **"Accessibility scan found 3 violations in 39 objects"**
+This comment will say **"Accessibility scan found 5 violations in 11 objects"**
 
 Then, there will be a loop detailing each object and a follow up of a screenshot highlighting each object:
 
